@@ -232,11 +232,9 @@ No hay uso simultáneo del mismo cubierto: Un filósofo solo entra en estado EAT
 
 No hay deadlock: Nunca se permite que todos los filósofos queden esperando circularmente, ya que el acceso está controlado por la verificación del estado.
 
-  
 
 Hay concurrencia real: Filósofos no vecinos pueden comer simultáneamente. Esto se evidencia en la salida del programa donde múltiples filósofos comen en bloques temporales similares.
 
-  
 
 ## 8. Implementación en C
 
